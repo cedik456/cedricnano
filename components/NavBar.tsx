@@ -18,8 +18,8 @@ const NavBar = () => {
   return (
     <nav className="flex items-center md:justify-between mt-10 px-6 justify-evenly ">
       <div className="flex items-center gap-2">
-        <BiLogoGithub className="md:size-7 size-5 cursor-pointer" />
-        <BiLogoGmail className="md:size-7 size-5 cursor-pointer" />
+        <BiLogoGithub className="md:size-7 size-6 cursor-pointer" />
+        <BiLogoGmail className="md:size-7 size-6 cursor-pointer" />
       </div>
 
       <div className="flex bg-[#303030]/60 backdrop-blur-md px-2 py-2 rounded-full shadow-md mx-1.5 md:mx-0 ">
@@ -46,7 +46,7 @@ const NavBar = () => {
           alt="ph flag"
           width={100}
           height={100}
-          className="w-5 h-5"
+          className="w-6 h-6"
         />
       </div>
       {/* <button onClick={() => {}}>
