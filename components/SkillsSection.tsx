@@ -29,13 +29,13 @@ const SkillsSection = () => {
     {
       icon: "/tech/mongodb-original.svg",
       title: "MongoDB",
-      subtitle: "Version control",
+      subtitle: "NoSQL database",
       color: "#34473D",
     },
     {
       icon: "/tech/express-original.svg",
       title: "ExpressJs",
-      subtitle: "Version control",
+      subtitle: "Node.js framework",
       color: "#424242",
     },
   ];
