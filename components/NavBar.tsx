@@ -40,7 +40,7 @@ const NavBar = () => {
         })}
       </div>
 
-      <div className="bg-white py-1 px-2 rounded-md cursor-pointer">
+      <div className="md:bg-white bg-none md:py-1 py-0 md:px-2 px-0 rounded-md cursor-pointer">
         <Image
           src={"/ph.svg"}
           alt="ph flag"
