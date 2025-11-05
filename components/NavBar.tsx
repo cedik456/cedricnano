@@ -16,11 +16,11 @@ const NavBar = () => {
     { href: "/projects", label: "Projects" },
   ];
   return (
-    <nav className="flex items-center md:justify-between mt-10 px-6 justify-evenly ">
-      <div className="flex items-center gap-2">
+    <nav className="flex items-center justify-center mt-10 px-6  ">
+      {/* <div className="flex items-center gap-2">
         <BiLogoGithub className="md:size-7 size-6 cursor-pointer" />
         <BiLogoGmail className="md:size-7 size-6 cursor-pointer" />
-      </div>
+      </div> */}
 
       <div className="flex bg-[#303030]/60 backdrop-blur-md px-2 py-2 rounded-full shadow-md mx-1.5 md:mx-0 ">
         {menuItems.map((item) => {
@@ -40,7 +40,7 @@ const NavBar = () => {
         })}
       </div>
 
-      <div className="md:bg-white bg-none md:py-1 py-0 md:px-2 px-0 rounded-md cursor-pointer">
+      {/* <div className="md:bg-white bg-none md:py-1 py-0 md:px-2 px-0 rounded-md cursor-pointer">
         <Image
           src={"/ph.svg"}
           alt="ph flag"
@@ -48,7 +48,7 @@ const NavBar = () => {
           height={100}
           className="w-6 h-6"
         />
-      </div>
+      </div> */}
       {/* <button onClick={() => {}}>
         {theme === "dark" ? (
           <SunIcon className="w-6 h-6" />

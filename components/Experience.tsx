@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <section className=" py-10 mx-auto container max-w-5xl md:px-0 px-4">
+    <section className=" py-20 mx-auto container max-w-5xl md:px-0 px-4">
       <h1 className="text-2xl  mb-4 font-semibold">Experience</h1>
       <div className="relative border-l  border-gray-700">
         {experiences.map((experience, index) => (

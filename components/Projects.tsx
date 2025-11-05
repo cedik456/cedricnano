@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="py-20 mx-auto container max-w-5xl md:px-0 px-4">
+    <section className=" mx-auto container max-w-5xl md:px-0 px-4">
       <h1 className="text-xl md:text-2xl mb-4 font-semibold">Projects</h1>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8 md:mb-4 mb-0">
         {projects.map((project) => (
@@ -57,11 +57,11 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className=" text-center justify-center mt-5 md:block hidden ">
+      {/* <div className=" text-center justify-center mt-5 md:block hidden ">
         <button className="px-3 py-2  items-center rounded-lg bg-white text-black text-sm font-medium shadow-md hover:bg-gray-200 transition cursor-pointer">
           View all Projects
         </button>
-      </div>
+      </div> */}
     </section>
   );
 };
