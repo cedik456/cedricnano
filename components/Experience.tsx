@@ -1,13 +1,23 @@
+"use client";
+
 import { experiences } from "@/app/contents/experiences";
+import { scaleIn } from "@/app/utils/animation";
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <section className="py-10 mx-auto container max-w-5xl md:px-0 px-4">
-      <h1 className="text-xl md:text-2xl mb-4 font-semibold">Experience</h1>
-      <div className="relative border-l border-gray-700">
+    <section className=" py-10 mx-auto container max-w-5xl md:px-0 px-4">
+      <h1 className="text-2xl  mb-4 font-semibold">Experience</h1>
+      <div className="relative border-l  border-gray-700">
         {experiences.map((experience, index) => (
           <div className="relative mb-12 ml-6" key={index}>
-            <span className="absolute -left-8 top-1 w-4 h-4  bg-gray-300 rounded-full "></span>
+            <motion.span
+              variants={scaleIn}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+              className="absolute -left-8 top-1 w-4 h-4  bg-gray-300 rounded-full inline-block "
+            />
 
             <a
               href="#"
