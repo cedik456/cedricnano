@@ -34,23 +34,23 @@ export const projects: Project[] = [
     demoLink: "https://demo.com",
     image: "/projects/blog-website.jpeg",
   },
-  // {
-  //   title: "Weather App",
-  //   description:
-  //     "A weather application that provides real-time weather updates.",
-  //   technologies: ["React", "OpenWeatherMap API"],
-  //   githubLink: "https://github.com",
-  //   demoLink: "https://demo.com",
-  //   image: "/projects/weather-app.png",
-  // },
-  // {
-  //   title: "Chat Application",
-  //   description: "A real-time chat application using WebSocket technology.",
-  //   technologies: ["React", "Node.js", "Socket.io"],
-  //   githubLink: "https://github.com",
-  //   demoLink: "https://demo.com",
-  //   image: "/projects/chat-app.png",
-  // },
+  {
+    title: "Weather App",
+    description:
+      "A weather application that provides real-time weather updates.",
+    technologies: ["React", "OpenWeatherMap API"],
+    githubLink: "https://github.com",
+    demoLink: "https://demo.com",
+    image: "/projects/weather-app.png",
+  },
+  {
+    title: "Chat Application",
+    description: "A real-time chat application using WebSocket technology.",
+    technologies: ["React", "Node.js", "Socket.io"],
+    githubLink: "https://github.com",
+    demoLink: "https://demo.com",
+    image: "/projects/chat-app.png",
+  },
   // {
   //   title: "Recipe Finder",
   //   description: "A recipe search application using the Edamam API.",

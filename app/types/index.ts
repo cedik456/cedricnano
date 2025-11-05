@@ -14,3 +14,11 @@ export interface Blog {
   readTime: string;
   slug: string;
 }
+
+export interface Experience {
+  company: string;
+  role: string;
+  type: "internship" | "freelance" | "school project" | "personal";
+  date: string;
+  description: string;
+}
