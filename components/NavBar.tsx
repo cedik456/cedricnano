@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import Image from "next/image";
 
 const NavBar = () => {
   const theme = "dark";

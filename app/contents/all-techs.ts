@@ -21,7 +21,7 @@ export const alltechs = [
     icon: "/tech/typescript-original.svg",
     title: "TypeScript",
     subtitle: "JS but better",
-    color: "#2B3644",
+    color: "#007ACC",
   },
   {
     icon: "/tech/react-original.svg",
@@ -57,7 +57,7 @@ export const alltechs = [
     icon: "/tech/mysql-original.svg",
     title: "MySQL",
     subtitle: "Relational database",
-    color: "#61AEDD", // lighter blue
+    color: "#ADD8E6", // lighter blue
   },
   {
     icon: "/tech/php-original.svg",
@@ -82,16 +82,16 @@ export const alltechs = [
     icon: "/tech/reactnative-original.svg",
     title: "React Native",
     subtitle: "Mobile framework",
-    color: "#61DBFB", // bright cyan, matches React tone
+    color: "#424242", // bright cyan, matches React tone
   },
   {
     icon: "/tech/expo-original.svg",
     title: "Expo Go",
     subtitle: "Development tool",
-    color: "#A8A8A8", // light neutral gray
+    color: "#F5F5F5",
   },
   {
-    icon: "/tech/reactnative-original.svg",
+    icon: "/tech/flutter-original.svg",
     title: "Flutter",
     subtitle: "Mobile framework",
     color: "#61DBFB", // bright cyan, matches React tone
@@ -101,12 +101,12 @@ export const alltechs = [
     icon: "/tech/figma-original.svg",
     title: "Figma",
     subtitle: "Design tool",
-    color: "#F56A2A", // slightly lighter orange
+    color: "#4d4f59", // slightly lighter orange
   },
   {
     icon: "/tech/git-original.svg",
     title: "Git",
     subtitle: "Version control",
-    color: "#F36A4A", // softer orange-red
+    color: "#67686b", // softer orange-red
   },
 ];
