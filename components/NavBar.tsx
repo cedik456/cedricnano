@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
-import { BiLogoGithub, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 import Image from "next/image";
 
 const NavBar = () => {
@@ -16,13 +17,14 @@ const NavBar = () => {
     { href: "/projects", label: "Projects" },
   ];
   return (
-    <nav className="flex items-center justify-center mt-10 px-6  ">
-      {/* <div className="flex items-center gap-2">
-        <BiLogoGithub className="md:size-7 size-6 cursor-pointer" />
-        <BiLogoGmail className="md:size-7 size-6 cursor-pointer" />
-      </div> */}
+    <nav className="flex items-center md:justify-between mt-10 px-6 justify-center   ">
+      <div className=" items-center gap-2 text-gray-400 flex ">
+        <FaGithub className="md:size-7 size-6 cursor-pointer hover:text-white transition-colors" />
+        <FaLinkedin className="size-6 cursor-pointer  hover:text-white transition-colors" />
+        <BiLogoGmail className="size-6 cursor-pointer  hover:text-white transition-colors" />
+      </div>
 
-      <div className="flex bg-[#303030]/60 backdrop-blur-md px-2 py-2 rounded-full shadow-md mx-1.5 md:mx-0 ">
+      <div className="flex bg-[#303030]/60 backdrop-blur-md px-1 py-1 rounded-full shadow-md mx-1.5 md:mx-0 ">
         {menuItems.map((item) => {
           const isActive = pathname === item.href;
 
@@ -49,13 +51,13 @@ const NavBar = () => {
           className="w-6 h-6"
         />
       </div> */}
-      {/* <button onClick={() => {}}>
+      <button onClick={() => {}} className="cursor-pointer ">
         {theme === "dark" ? (
-          <SunIcon className="w-6 h-6" />
+          <SunIcon className="w-6 h-6 " />
         ) : (
           <MoonIcon className="w-6 h-6" />
         )}
-      </button> */}
+      </button>
     </nav>
   );
 };

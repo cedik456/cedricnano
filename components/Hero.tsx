@@ -26,9 +26,7 @@ const Hero = () => {
               Cedric Naño
             </motion.span>
           </motion.h1>
-          {/* <h2 className="text-lg flex gap-2 mb-2 text-gray-300">
-            <MapPinIcon className="size-6" /> Legazpi City, Albay
-          </h2> */}
+
           <motion.p
             variants={fadeInUp}
             initial="initial"
