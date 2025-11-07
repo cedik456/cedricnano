@@ -7,7 +7,7 @@ import { fadeInUp, heroText } from "@/app/utils/animation";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto max-w-5xl px-4 py-0 md:py-10 md:px-0">
+    <section className="container mx-auto max-w-5xl px-4 py-10 md:px-0">
       <div className="flex items-center gap-10 flex-col-reverse md:flex-row md:items-start  md:gap-15 ">
         <div className="flex flex-col md:w-[580px] w-full text-center md:text-left mt-6 md:mt-0">
           <motion.h1

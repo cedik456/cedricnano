@@ -5,10 +5,29 @@ import { usePathname } from "next/navigation";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   const theme = "dark";
   const pathname = usePathname();
+
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY && window.scrollY > 100) {
+      setShow(false); // scroll down → hide
+    } else {
+      setShow(true); // scroll up → show
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => window.removeEventListener("scroll", controlNavbar);
+  }, [lastScrollY]);
 
   const menuItems = [
     { href: "/", label: "Home" },
@@ -16,7 +35,12 @@ const NavBar = () => {
     { href: "/projects", label: "Projects" },
   ];
   return (
-    <nav className="flex items-center md:justify-between mt-10 px-6 justify-center   ">
+    <motion.nav
+      initial={{ y: 0 }}
+      animate={{ y: show ? 0 : -100, opacity: show ? 1 : 0 }}
+      transition={{ type: "spring", stiffness: 120, damping: 20 }}
+      className="fixed top-0 left-0 w-full z-50 flex items-center md:justify-between px-6 justify-center py-4 "
+    >
       <div className=" items-center gap-2 text-gray-400 flex ">
         <FaGithub className="md:size-7 size-6 cursor-pointer hover:text-white transition-colors" />
         <FaLinkedin className="size-6 cursor-pointer  hover:text-white transition-colors" />
@@ -57,7 +81,7 @@ const NavBar = () => {
           <MoonIcon className="w-6 h-6" />
         )}
       </button>
-    </nav>
+    </motion.nav>
   );
 };
 

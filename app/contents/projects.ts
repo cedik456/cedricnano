@@ -8,7 +8,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/projects/e-commerce-website.png",
+    image: "/projects/book-selling-website.png",
   },
   {
     title: "Task Management App",
@@ -20,19 +20,19 @@ export const projects: Project[] = [
   },
   {
     title: "Portfolio Website",
-    description: "My personal portfolio website showcasing my projects.",
+    description: "Created a reference portfolio website",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/projects/portfolio-website.jpg",
+    image: "/projects/portfolio-website.png",
   },
   {
-    title: "Blog Platform",
+    title: "Classroom Booking System",
     description: "A blogging platform with user authentication.",
     technologies: ["Gatsby", "GraphQL", "Contentful"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/projects/blog-website.jpeg",
+    image: "/projects/classroom-booking-system.png",
   },
   {
     title: "Weather App",

@@ -23,3 +23,7 @@
 body {
   font-family: var(--font-poppins);
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(220, 9%, 46%); /* Tailwind text-gray-700 */
+}
