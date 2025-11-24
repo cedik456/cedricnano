@@ -21,7 +21,8 @@ export const projects: Project[] = [
     description:
       "A classroom booking system with real time updates for Bicol University College of Engineering.",
     technologies: ["React", "Tailwind CSS", "MongoDB", "Node.js", "Socket.io"],
-    githubLink: "https://github.com",
+    githubLink:
+      "https://github.com/jamesricarte/booking-system-prototype-simplified",
     demoLink: "https://demo.com",
     image: "/projects/classroombooking-project.png",
   },
@@ -29,7 +30,7 @@ export const projects: Project[] = [
     title: "Chapterly",
     description: "A modern book-selling e-commerce website.",
     technologies: ["React", "Tailwind CSS"],
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/jamesricarte/Chapterly-Ecommerce",
     demoLink: "https://demo.com",
     image: "/projects/book-selling-website.png",
   },
