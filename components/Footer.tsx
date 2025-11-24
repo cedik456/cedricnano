@@ -14,20 +14,20 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-6 text-xs">
-          <Link href="#home" className="hover:text-white transition">
+          <Link href="/" className="hover:text-white transition">
             Home
           </Link>
-          <Link href="#contact" className="hover:text-white transition">
+          <Link href="/about" className="hover:text-white transition">
             About
           </Link>
-          <Link href="#projects" className="hover:text-white transition">
+          <Link href="/projects" className="hover:text-white transition">
             Projects
           </Link>
         </div>
 
         <div className="flex gap-4 text-lg">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/cedik456"
             target="_blank"
             className="hover:text-white transition"
           >
@@ -41,7 +41,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="mailto:lawrenzuio@gmail.com"
             target="_blank"
             className="hover:text-white transition"
           >

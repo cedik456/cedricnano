@@ -2,55 +2,47 @@ import { Project } from "../types";
 
 export const projects: Project[] = [
   {
-    title: "E-commerce Platform",
+    title: "Who's Next?",
     description:
-      "A full-stack e-commerce platform built with Next.js and TypeScript",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+      "A smart job-matching platform that works like a mix of a dating app and a job platform.",
+    technologies: [
+      "React Native",
+      "Tailwind CSS",
+      "MongoDB",
+      "ExpressJs",
+      "Expo",
+    ],
+    githubLink: "https://github.com/cedik456/WhosNext",
+    demoLink: "https://demo.com",
+    image: "/projects/whosnext-project.jpg",
+  },
+  {
+    title: "Classroom Booking System",
+    description:
+      "A classroom booking system with real time updates for Bicol University College of Engineering.",
+    technologies: ["React", "Tailwind CSS", "MongoDB", "Node.js", "Socket.io"],
+    githubLink: "https://github.com",
+    demoLink: "https://demo.com",
+    image: "/projects/classroombooking-project.png",
+  },
+  {
+    title: "Chapterly",
+    description: "A modern book-selling e-commerce website.",
+    technologies: ["React", "Tailwind CSS"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     image: "/projects/book-selling-website.png",
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application",
-    technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    image: "/projects/task-manager.webp",
-  },
-  {
     title: "Portfolio Website",
-    description: "Created a reference portfolio website",
+    description:
+      "A responsive reference portfolio website for my future and current clients",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     image: "/projects/portfolio-website.png",
   },
-  {
-    title: "Classroom Booking System",
-    description: "A blogging platform with user authentication.",
-    technologies: ["Gatsby", "GraphQL", "Contentful"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    image: "/projects/classroom-booking-system.png",
-  },
-  {
-    title: "Weather App",
-    description:
-      "A weather application that provides real-time weather updates.",
-    technologies: ["React", "OpenWeatherMap API"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    image: "/projects/weather-app.png",
-  },
-  {
-    title: "Chat Application",
-    description: "A real-time chat application using WebSocket technology.",
-    technologies: ["React", "Node.js", "Socket.io"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    image: "/projects/chat-app.png",
-  },
+
   // {
   //   title: "Recipe Finder",
   //   description: "A recipe search application using the Edamam API.",

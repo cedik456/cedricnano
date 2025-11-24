@@ -42,9 +42,29 @@ const NavBar = () => {
       className="fixed top-0 left-0 w-full z-50 flex items-center md:justify-between px-6 justify-center py-4 "
     >
       <div className=" items-center gap-2 text-gray-400 flex ">
-        <FaGithub className="md:size-7 size-6 cursor-pointer hover:text-white transition-colors" />
-        <FaLinkedin className="size-6 cursor-pointer  hover:text-white transition-colors" />
-        <BiLogoGmail className="size-6 cursor-pointer  hover:text-white transition-colors" />
+        <a
+          href="https://github.com/cedik456"
+          target="_blank"
+          className="cursor-pointer hover:text-white transition-colors"
+        >
+          <FaGithub className=" size-6 " />
+        </a>
+
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          className="cursor-pointer  hover:text-white transition-colors"
+        >
+          <FaLinkedin className="  size-6 " />
+        </a>
+
+        <a
+          href="mailto:lawrenzuio@gmail.com"
+          target="_blank"
+          className="cursor-pointer  hover:text-white transition-colors"
+        >
+          <BiLogoGmail className=" size-6 " />
+        </a>
       </div>
 
       <div className="flex bg-[#303030]/60 backdrop-blur-md px-1 py-1 rounded-full shadow-md mx-1.5 md:mx-0 ">
