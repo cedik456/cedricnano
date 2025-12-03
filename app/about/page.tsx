@@ -43,16 +43,16 @@ export default function AboutPage() {
             Divine Word College of Legazpi
           </span>
           . I’m someone who loves learning and exploring new technologies. I’m
-          not the type who picks things up overnight, so I like sticking with
-          something for a long time studying, practicing, and getting better
-          little by little.
+          not the type of person who picks things up overnight, so I like to
+          stick with something for a very long time studying, practicing, and
+          getting better little by little.
         </p>
 
         <p className="text-lg text-secondary max-w-3xl text-gray-300">
-          I’m also pretty active and I like staying productive. I also admire
-          balance. My goal is to build a life where my work and personal time
-          don’t compromise each other. I just want to grow, stay curious, and
-          move at my own steady pace.
+          I’m also pretty active and I like staying productive. I admire balance
+          and my goal is to build a life where my work and personal time don’t
+          compromise each other. I just want to grow and move at my own steady
+          pace.
         </p>
       </section>
 
