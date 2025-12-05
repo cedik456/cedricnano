@@ -40,16 +40,16 @@ export const projects: Project[] = [
     description:
       "A modern responsive website using the tools react and tailwind",
     technologies: ["React", "Tailwind", "TypeScript"],
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/cedik456/react-tailwind-modernwebsite",
     demoLink: "https://modern-responsive-website-rose.vercel.app/",
-    image: "/projects/codeflowai.png",
+    image: "/projects/codeflowsai.png",
   },
   {
     title: "Portfolio Website",
     description:
       "A responsive reference portfolio website for my future and current clients",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/cedik456/nextjs-portfolio",
     demoLink: "https://demo.com",
     image: "/projects/portfolio-website.png",
   },
