@@ -34,6 +34,16 @@ export const projects: Project[] = [
     demoLink: "https://demo.com",
     image: "/projects/book-selling-website.png",
   },
+
+  {
+    title: "CodeFlow AI",
+    description:
+      "A modern responsive website using the tools react and tailwind",
+    technologies: ["React", "Tailwind", "TypeScript"],
+    githubLink: "https://github.com",
+    demoLink: "https://demo.com",
+    image: "/projects/codeflowai.png",
+  },
   {
     title: "Portfolio Website",
     description:
@@ -43,21 +53,12 @@ export const projects: Project[] = [
     demoLink: "https://demo.com",
     image: "/projects/portfolio-website.png",
   },
-
-  // {
-  //   title: "Recipe Finder",
-  //   description: "A recipe search application using the Edamam API.",
-  //   technologies: ["React", "Edamam API"],
-  //   githubLink: "https://github.com",
-  //   demoLink: "https://demo.com",
-  //   image: "/projects/recipe-finder.png",
-  // },
-  // {
-  //   title: "Expense Tracker",
-  //   description: "A personal finance tracker to manage expenses and income.",
-  //   technologies: ["React", "Firebase"],
-  //   githubLink: "https://github.com",
-  //   demoLink: "https://demo.com",
-  //   image: "/projects/expense-tracker.webp",
-  // },
+  {
+    title: "Expense Tracker",
+    description: "A personal finance tracker to manage expenses and income.",
+    technologies: ["React", "Firebase"],
+    githubLink: "https://github.com",
+    demoLink: "https://demo.com",
+    image: "/projects/expense-tracker.webp",
+  },
 ];

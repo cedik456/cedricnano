@@ -6,7 +6,6 @@ import { techs } from "../contents/main-tech";
 import { motion } from "framer-motion";
 import { GrLocationPin } from "react-icons/gr";
 import Footer from "@/components/Footer";
-import { experiences } from "../contents/experiences";
 
 export default function AboutPage() {
   return (
