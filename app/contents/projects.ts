@@ -41,7 +41,7 @@ export const projects: Project[] = [
       "A modern responsive website using the tools react and tailwind",
     technologies: ["React", "Tailwind", "TypeScript"],
     githubLink: "https://github.com",
-    demoLink: "https://demo.com",
+    demoLink: "https://modern-responsive-website-rose.vercel.app/",
     image: "/projects/codeflowai.png",
   },
   {
