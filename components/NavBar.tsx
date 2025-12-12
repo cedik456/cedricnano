@@ -41,7 +41,7 @@ const NavBar = () => {
       transition={{ type: "spring", stiffness: 120, damping: 20 }}
       className="fixed top-0 left-0 w-full z-50 flex items-center md:justify-between px-6 justify-center py-4 "
     >
-      <div className=" items-center gap-2 text-gray-400 flex ">
+      <div className=" items-center gap-2 text-gray-400 md:flex hidden ">
         <a
           href="https://github.com/cedik456"
           target="_blank"
@@ -94,7 +94,7 @@ const NavBar = () => {
           className="w-6 h-6"
         />
       </div> */}
-      <button onClick={() => {}} className="cursor-pointer ">
+      <button onClick={() => {}} className="cursor-pointer md:block hidden ">
         {theme === "dark" ? (
           <SunIcon className="w-6 h-6 " />
         ) : (

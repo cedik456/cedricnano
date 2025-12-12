@@ -4,7 +4,12 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section className=" mx-auto container max-w-5xl md:px-0 px-4">
-      <h1 className="text-2xl  mb-4 font-semibold">Projects</h1>
+      <h1
+        className="text-3xl md:text-2xl mb-8
+       md:mb-4 font-semibold text-center md:text-left"
+      >
+        Projects
+      </h1>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8 md:mb-4 mb-0">
         {projects.map((project) => (
           <article

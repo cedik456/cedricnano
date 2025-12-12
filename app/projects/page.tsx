@@ -5,7 +5,9 @@ import Footer from "@/components/Footer";
 export default function ProjectsPage() {
   return (
     <div className=" container mx-auto py-10 max-w-5xl md:px-0 px-4">
-      <h1 className="md:text-4xl text-3xl font-bold mb-4 ">Projects</h1>
+      <h1 className="md:text-4xl text-3xl font-bold mb-4 md:text-left text-center ">
+        Projects
+      </h1>
       <div className="grid grid-cols-1 gap-8 md:mb-4 mb-0">
         {projects.map((project) => (
           <article
@@ -23,7 +25,7 @@ export default function ProjectsPage() {
 
               <div className="absolute inset-0 bg-linear-to-t from-black/65 via-black/20 to-transparent pointer-events-none"></div>
 
-              <div className="absolute bottom-0.5 left-4 z-10 transition-all duration-300 group-hover:-translate-y-3">
+              <div className="absolute bottom-0.5 left-4 z-10 transition-all duration-300 group-hover:-translate-y-3 ">
                 <h3 className="text-white font-semibold md:text-xl text-lg">
                   {project.title}
                 </h3>
@@ -39,7 +41,7 @@ export default function ProjectsPage() {
                   ))}
                 </div>
 
-                <p className="text-md text-gray-400 mt-2">
+                <p className="md:text-md text-gray-400 mt-2 text-sm ">
                   {project.description}
                 </p>
 
@@ -47,7 +49,7 @@ export default function ProjectsPage() {
                   <a
                     href={project.githubLink}
                     target="_blank"
-                    className="md:px-4 md:py-2 px-3 py-1  items-center rounded-lg bg-white text-black text-sm font-medium shadow-md hover:bg-gray-200 transition"
+                    className="md:px-4 md:py-2 px-2.5 py-0.5 items-center rounded-lg bg-white text-black text-sm font-medium shadow-md hover:bg-gray-200 transition"
                   >
                     View Project
                   </a>

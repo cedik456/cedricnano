@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 export default function AboutPage() {
   return (
     <div className="container mx-auto py-10 max-w-5xl ">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 md:px-0 px-4 ">
+      <h1 className="text-4xl font-bold mb-4 md:px-0 px-4 md:text-left text-center ">
         About Me
       </h1>
 
@@ -32,31 +32,33 @@ export default function AboutPage() {
       </div> */}
 
       <section className="mb-16 md:px-0 px-4">
-        <h2 className=" flex gap-2 mb-2 items-center text-gray-400">
+        <h2 className=" flex gap-2 mb-2 items-center text-gray-400 md:justify-start justify-center   ">
           <GrLocationPin className="size-5" /> Legazpi City, Philippines
         </h2>
 
-        <p className="text-lg text-secondary max-w-4xl text-gray-300 mb-2">
-          I’m currently studying at{" "}
-          <span className="text-gray-100 font-medium">
-            Divine Word College of Legazpi
-          </span>
-          . I’m someone who loves learning and exploring new technologies. I’m
-          not the type of person who picks things up overnight, so I like to
-          stick with something for a very long time studying, practicing, and
-          getting better little by little.
-        </p>
+        <div className="text-center md:text-left">
+          <p className="text-lg text-secondary max-w-4xl text-gray-300 mb-2 ">
+            I’m currently studying at{" "}
+            <span className="text-gray-100 font-medium">
+              Divine Word College of Legazpi
+            </span>
+            . I’m someone who loves to learn and explore new technologies. I’m
+            not the type of person who picks things up overnight, so I like to
+            stick with something for a very long time studying, practicing, and
+            getting better little by little.
+          </p>
 
-        <p className="text-lg text-secondary max-w-3xl text-gray-300">
-          I’m also pretty active and I like staying productive. I admire balance
-          and my goal is to build a life where my work and personal time don’t
-          compromise each other. I just want to grow and move at my own steady
-          pace.
-        </p>
+          <p className="text-lg text-secondary max-w-3xl text-gray-300">
+            I’m also pretty active and I like staying productive. I admire
+            balance, my goal is to build a life where my work and personal time
+            don’t compromise each other. I just want to grow and move at my own
+            steady pace.
+          </p>
+        </div>
       </section>
 
       <section className="md:px-0 px-4">
-        <h1 className="text-2xl font-semibold mb-4  ">
+        <h1 className="text-3xl md:text-2xl font-semibold mb-4 text-center md:text-left  ">
           Tools I've used before
         </h1>
 
